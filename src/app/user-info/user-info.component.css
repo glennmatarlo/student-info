@@ -1,0 +1,14 @@
+.bg{
+    background-color: rgba(0, 0, 255, 0.171);
+    color: rgba(34, 34, 236, 0.87);
+    font-size: 16pt;
+}
+
+.sb{
+    background-color: rgba(255, 166, 0, 0.171);
+    color: rgba(226, 102, 19, 0.904);
+}
+
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.349) 0px 3px 10px;
+}

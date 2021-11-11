@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project';
+
+  user = {
+    name: 'Glenn D. Matarlo',
+    course: 'BSIT',
+    address: 'Cabulijan, Tubigon, Bohol',
+    subject:[
+      'Math',
+      'English',
+      'Filipino',
+      'Science',
+      'Values'
+    ]
+  };
+
 }

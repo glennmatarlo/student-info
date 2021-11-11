@@ -1,0 +1,25 @@
+<div class="container mt-5 justify-content-center d-flex">
+    <div class="card shadow mb-3 alert-success" style="max-width: 700px;">
+        <div class="card-header bg">{{title}}</div>
+        <div class="row g-0">
+          <div class="col-md-4 card">
+            <img src="https://cdn0.iconfinder.com/data/icons/set-ui-app-android/32/8-512.png" class="img-fluid rounded-start" alt="...">
+            <ul class="list-group list-group-flush mt-2">
+                <li class="list-group-item"><b>Name:</b> {{user.name}}</li>
+                <li class="list-group-item"><b>Course:</b> {{user.course}}</li>
+                <li class="list-group-item"><b>Address:</b> {{user.address}}</li>
+            </ul>
+          </div>
+          <div class="col-md-8">
+            <div class="card-header card sb mt-1">SUBJECTS TAKEN</div>
+            <div class="card-body card alert-success">
+                <table class="table table-success table-striped">
+                    <tbody>
+                        <tr *ngFor="let sub of user.subject"><td>{{sub}}</td></tr>
+                    </tbody>
+                </table>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
